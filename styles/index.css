@@ -1,1 +1,39 @@
-/*# sourceMappingURL=index.css.map */
+/* <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> */
+header {
+  min-height: 100px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 6%;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.header__nav__list {
+  list-style-type: none;
+  display: flex;
+}
+
+.header__nav__item {
+  color: black;
+  padding: 20px;
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+}/*# sourceMappingURL=index.css.map */

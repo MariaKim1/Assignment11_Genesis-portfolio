@@ -1,0 +1,31 @@
+header {
+    min-height: 100px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 6%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.header__nav__list {
+    list-style-type: none;
+    display: flex;
+}
+
+.header__nav__item {
+    color: black;
+    padding: 20px;
+}
