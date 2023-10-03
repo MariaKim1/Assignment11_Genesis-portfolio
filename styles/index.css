@@ -1,4 +1,12 @@
 /* <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> */
+p, h2, h3, h4, h5, li {
+  font-family: "Mulish", sans-serif;
+}
+
+.txt_blue {
+  color: rgb(74, 79, 242);
+}
+
 header {
   min-height: 100px;
   margin: auto;
@@ -29,6 +37,57 @@ nav {
 .header__nav__item {
   color: black;
   padding: 20px;
+}
+
+.main__txt-section1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.main__txt-section1__a {
+  grid-column: 1 span 2;
+}
+
+.main__txt-section1__b {
+  grid-column: 4;
+}
+
+h2 {
+  /*  font-family: 'Mulish', sans-serif; */
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.4230768979px;
+  text-align: left;
+  color: rgb(74, 79, 242);
+}
+
+h3 {
+  /* font-family: 'Mulish', sans-serif; */
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.main__txt-section1__b__line {
+  width: 30px;
+  opacity: 0.5px;
+  border: 2px solid rgb(17, 17, 17);
+  padding: 0;
+  margin: 0;
+}
+
+.main__txt-section1__b__text {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 0;
+  margin: 0;
 }
 
 body {
