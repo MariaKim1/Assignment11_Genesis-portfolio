@@ -39,6 +39,7 @@ nav {
   padding: 20px;
 }
 
+/* ===== MAIN TEXT SECTION 1 - STYLING START ==== */
 .main__txt-section1 {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
@@ -90,6 +91,16 @@ h3 {
   margin: 0;
 }
 
+/* ===== MAIN TEXT SECTION 1 - STYLING END ==== */
+/* ===== GRID PHOTO GALLERY - STYLING START ==== */
+.grid_photogallery {
+  background-color: aquamarine;
+  padding: 50px;
+  font-size: 30px;
+}
+
+/* ===== GRID PHOTO GALLERY - STYLING END ==== */
+/* ===== MAIN SERVICE & AWARD LIST (GRID) - STYLING START ===== */
 body {
   max-width: 1440px;
   width: 100%;
