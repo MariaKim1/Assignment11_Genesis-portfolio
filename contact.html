@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/19b5078a53.js" crossorigin="anonymous"></script>
-    <title>MKP_Genesis_Project_Details</title>
+    <title>MKP_Genesis_Contact</title>
 </head>
 <body>
 <!-- ====  HEADER  === -->
@@ -22,11 +22,37 @@
             </ul>
         </nav>
     </header>
-    
-<!-- ====  PROJECT: MAIN CONTENT  === -->
-    
-<!-- ====  FOOTER  === -->
 
+<!-- ====  CONTACT: MAIN CONTENT  === -->
+    <main>
+        <div class="contact__grid_container">
+            <div class="contact__grid_container__col1">
+                <h1 class="contact__h1">Full set of great features to make your product fresh</h1>
+                <p class="contact__txt">Our favorite brands are our friends! We help them to 
+                    achieve their goals, they help us to stay sharp.</p>
+            </div>
+
+            <div class="contact__grid_container__col2">
+                <form class="contact__form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" class="input-field" autofocus>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="input-field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" class="input-field"></textarea>
+                </form>
+                <div class="contact__submit_btn">
+                    <button type="submit" id="submit_btn">Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img class="img__map" src="images/contact_map.png" alt="map">
+        </div>
+    </main>
+
+<!-- ====  FOOTER  === -->
     <footer>
         <svg class="footer__logo">
             <use class="logo" xlink:href="images/logo.svg#logo" alt="Genesis logo"></use>
@@ -41,6 +67,6 @@
             <i class="fa-brands fa-instagram insta" style="color: #000000;"></i>
             <i class="fa-brands fa-twitter twitter" style="color: #000000;"></i>
         </div>
-    </footer>  
+    </footer> 
 </body>
 </html>
