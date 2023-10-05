@@ -1,0 +1,41 @@
+/* QUESTION/COMMENT: I couldn't place the items correctly so had to use padding as placement */
+
+footer {
+    min-height: 200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.footer__logo {
+    width: 15%;
+    padding-top: 45px;
+}
+
+.footer__nav {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    grid-column: 3;
+    padding-top: 100px;
+}
+
+.footer__nav__list {
+    list-style-type: none;
+}
+
+.footer__nav__item {
+    color: black;
+    padding-right: 20px;
+}
+
+.so_me__icons {
+    grid-column: 4;
+    text-align: end;
+    padding-top: 100px;
+}
+
+.dribble, .insta, .twitter {
+    padding-left: 20px;
+}

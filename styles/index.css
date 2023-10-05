@@ -10,8 +10,6 @@ p, h2, h3, h4, h5, li {
 header {
   min-height: 100px;
   margin: auto;
-  padding: 20px;
-  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,7 +21,7 @@ header {
   padding: 0;
 }
 
-nav {
+.header__nav {
   font-family: "Mulish", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -40,20 +38,24 @@ nav {
 }
 
 /* ===== HOME: TEXT TOP - STYLING START ==== */
-.main__txt-top {
+.home__txt-top {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
 }
 
-.main__txt-top__a {
-  grid-column: 1 span 2;
+.home__txt-top__a {
+  grid-column: 1/3;
 }
 
-.main__txt-top__b {
+.home__txt-top__b {
   grid-column: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 40px;
 }
 
-.h2__top {
+.home__txt-top__a__h2 {
   font-family: "Mulish", sans-serif;
   font-size: 22px;
   font-weight: 700;
@@ -63,7 +65,7 @@ nav {
   color: rgb(74, 79, 242);
 }
 
-.h3__top {
+.home__txt-top__a__h3 {
   font-family: "Mulish", sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -72,7 +74,7 @@ nav {
   text-align: left;
 }
 
-.main__txt-top__b__line {
+.home__txt-top__b__line {
   width: 30px;
   opacity: 0.5px;
   border: 2px solid rgb(17, 17, 17);
@@ -80,7 +82,7 @@ nav {
   margin: 0;
 }
 
-.main__txt-top__b__text {
+.home__txt-top__b__text {
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
@@ -254,7 +256,7 @@ h5 {
 }
 
 /* ===== lists styling and placement ===== */
-ul {
+.ul__col__3, .ul__col__4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -272,6 +274,47 @@ ul {
 }
 
 /* ===== HOME: SERVICE & AWARD LIST (GRID) - STYLING END ===== */
+/* QUESTION/COMMENT: I couldn't place the items correctly so had to use padding as placement */
+footer {
+  min-height: 200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.footer__logo {
+  width: 15%;
+  padding-top: 45px;
+}
+
+.footer__nav {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  grid-column: 3;
+  padding-top: 100px;
+}
+
+.footer__nav__list {
+  list-style-type: none;
+}
+
+.footer__nav__item {
+  color: black;
+  padding-right: 20px;
+}
+
+.so_me__icons {
+  grid-column: 4;
+  text-align: end;
+  padding-top: 100px;
+}
+
+.dribble, .insta, .twitter {
+  padding-left: 20px;
+}
+
 body {
   max-width: 1440px;
   width: 100%;

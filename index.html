@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/19b5078a53.js" crossorigin="anonymous"></script>
     <title>MKP_Genesis</title>
 </head>
 <body>
+<!-- ====  HEADER  === -->
     <header>
         <svg class="header__logo">
             <use class="logo" xlink:href="images/logo.svg#logo" alt="Genesis logo"></use>
         </svg>
-        <nav>
+        <nav class="header__nav">
             <ul class="header__nav__list">
                 <li><a class="header__nav__item" href="pages/projects.html">Projects</a></li>
                 <li><a class="header__nav__item" href="pages/contact.html">Contact</a></li>
@@ -20,29 +23,30 @@
         </nav>
     </header>
 
-<!-- ====  HOME  === -->
+<!-- ====  HOME: MAIN CONTENT TOP === -->
     <main>
-        <div class="main__txt-top">    
-            <div class="main__txt-top__a">
-                <h2 class="h2__top">Shooting Stars</h2>
-                <h3 class="h3__top">Hello, I’m Bakhtiyar Sattarov,
+        <div class="home__txt-top">    
+            <div class="home__txt-top__a">
+                <h2 class="home__txt-top__a__h2">Shooting Stars</h2>
+                <h3 class="home__txt-top__a__h3">Hello, I’m Bakhtiyar Sattarov,
                     <span class="txt_blue">product designer</span> with experience
                     in studios and startups</h3>
             </div>
-            <div class="main__txt-top__b">
-                <div class="main__txt-top__b-flex">
-                    <hr class="main__txt-top__b__line">
-                    <p class="main__txt-top__b__text">Design is about progress</p> 
-                </div>
+            <div class="home__txt-top__b">
+                <hr class="home__txt-top__b__line">
+                <p class="home__txt-top__b__text">Design is about progress</p> 
             </div>
         </div>
 
+<!-- ====  HOME: PHOTOGALLERY  === -->
+
         <div class="grid_photogallery">
-<!-- COME BACK TO LATER -->
             <p>
                 ADD GRID PHOTO GALLERY HERE LATER!
             </p>
         </div>
+
+ <!-- ====  HOME: MAIN CONTENT BOTTOM  === -->
 
         <div class="grid-container__service-awards-list">
             <h3 class="h3__1">We love work hard and explore new things that’s why we cover lot of things. 
@@ -91,28 +95,25 @@
                 </div>
                 <p class="year__col4__4">2016</p>
             <hr class="grid-container__service-awards-list__line">
-
         </div>
     </main>
-    
+
+<!-- ====  FOOTER  === -->
+
     <footer>
         <svg class="footer__logo">
             <use class="logo" xlink:href="images/logo.svg#logo" alt="Genesis logo"></use>
         </svg>
-        <nav>
-            <ul class="footer__nav__list">
-                <li><a class="footer__nav__item" href="pages/projects.html">Projects</a></li>
-                <li><a class="footer__nav__item" href="pages/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div>        
-<!-- ICONS SOCIAL MEDIA--> 
-            <i>alt="ball"</i>
-            <i>alt="instagram"</i>
-            <i>alt="X"</i>
-        </div>
-    </footer>
 
-    
+        <nav class="footer__nav">
+            <a class="footer__nav__item" href="pages/projects.html">Projects</a>
+            <a class="footer__nav__item" href="pages/contact.html">Contact</a>
+        </nav>
+        <div class="so_me__icons"> 
+            <i class="fa-solid fa-basketball dribble" style="color: #000000;"></i>
+            <i class="fa-brands fa-instagram insta" style="color: #000000;"></i>
+            <i class="fa-brands fa-twitter twitter" style="color: #000000;"></i>
+        </div>
+    </footer>  
 </body>
 </html>
