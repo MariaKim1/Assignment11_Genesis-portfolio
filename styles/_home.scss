@@ -1,20 +1,20 @@
-/* ===== MAIN TEXT SECTION 1 - STYLING START ==== */
+/* ===== HOME: TEXT TOP - STYLING START ==== */
 
-.main__txt-section1 {
+.main__txt-top {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
 }
 
-.main__txt-section1__a {
+.main__txt-top__a {
     grid-column: 1 span 2;   
 }
 
-.main__txt-section1__b {
+.main__txt-top__b {
     grid-column: 4;
 }
 
-h2 {
- /*  font-family: 'Mulish', sans-serif; */
+.h2__top {
+    font-family: 'Mulish', sans-serif;
     font-size: 22px;
     font-weight: 700;
     line-height: 28px;
@@ -23,8 +23,8 @@ h2 {
     color: rgba(74, 79, 242, 1);
 }
 
-h3 {
-/* font-family: 'Mulish', sans-serif; */
+.h3__top {
+    font-family: 'Mulish', sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 60px;
@@ -32,7 +32,7 @@ h3 {
     text-align: left;
 }
 
-.main__txt-section1__b__line {
+.main__txt-top__b__line {
     width: 30px;
     opacity: 0.5px;
     border: 2px solid rgba(17, 17, 17, 1); 
@@ -40,7 +40,7 @@ h3 {
     margin: 0;
 }
 
-.main__txt-section1__b__text {
+.main__txt-top__b__text {
     font-size: 18px;
     font-style: italic;
     font-weight: 400;
@@ -51,11 +51,11 @@ h3 {
     margin: 0;
 }
 
-/* ===== MAIN TEXT SECTION 1 - STYLING END ==== */
+/* ===== HOME: TEXT TOP - STYLING END ==== */
 
 
 
-/* ===== GRID PHOTO GALLERY - STYLING START ==== */
+/* ===== HOME: GRID PHOTO GALLERY - STYLING START ==== */
 
 .grid_photogallery {
     background-color: aquamarine;
@@ -63,9 +63,188 @@ h3 {
     font-size: 30px;
 }
 
-/* ===== GRID PHOTO GALLERY - STYLING END ==== */
+/* ===== HOME: GRID PHOTO GALLERY - STYLING END ==== */
 
 
 
-/* ===== MAIN SERVICE & AWARD LIST (GRID) - STYLING START ===== */
+/* ===== HOME: SERVICE & AWARD LIST (GRID) - STYLING START ===== */
 
+.grid-container__service-awards-list {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(7, auto);
+    gap: 20px;
+}
+
+p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+/* ===== h3 / COL 1 - GRID PLACEMENT ===== */
+
+.h3__1 {
+    grid-column: 1 / 3;
+    font-family: 'Mulish', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;    
+    color: rgba(17, 17, 17, 1);
+}
+
+.h3__2 {
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    font-family: 'Mulish', sans-serif;    
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(17, 17, 17, 1);
+}
+
+.h3__3 {
+    display: grid;
+    grid-column: 1;
+    grid-row: 6;
+    font-family: 'Mulish', sans-serif;    
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(17, 17, 17, 1);
+}
+
+
+/* ===== h4 / COL 2 - GRID PLACEMENT ===== */
+
+h4 {
+    font-family: 'Mulish', sans-serif;  
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(17, 17, 17, 1);
+}
+
+.h4__1 {
+    display: grid;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.h4__2 {
+    display: grid;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.h4__3 {
+    display: grid;
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.h4__4 {
+    display: grid;
+    grid-column: 2;
+    grid-row: 7;
+}
+
+/* ===== h5 / COL 3 - GRID PLACEMENT ===== */
+
+h5 {
+    font-family: 'Mulish', sans-serif;  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(17, 17, 17, 1);
+    margin: 0;
+}
+
+.h5__2 {
+    display: grid;
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.h5__4 {
+    display: grid;
+    grid-column: 3;
+    grid-row: 7;
+}
+
+/* ===== YEAR / COL 4 - GRID PLACEMENT ===== */
+
+.year__col4__1 {
+    display: grid;
+    grid-column: 4;
+    grid-row: 3;
+    justify-items: end;
+}
+
+.year__col4__2 {
+    display: grid;
+    grid-column: 4;
+    grid-row: 4;
+    justify-items: end;
+}
+
+.year__col4__3 {
+    display: grid;
+    grid-column: 4;
+    grid-row: 6;
+    justify-items: end;
+}
+
+.year__col4__4 {
+    display: grid;
+    grid-column: 4;
+    grid-row: 7;
+    justify-items: end;
+}
+
+
+/* ===== <hr> LINES - GRID PLACEMENT ===== */
+
+.grid-container__service-awards-list__line {
+    display:grid;
+    grid-column: 1 / span 4;
+    opacity: 0.5px;
+    border: 2px solid rgba(216, 216, 216, 1); 
+    padding: 0;
+    margin: 0;
+}
+
+/* ===== lists styling and placement ===== */
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ul__col__3 {
+    grid-column: 3;
+}
+
+.ul__col__4 {
+    grid-column: 4;
+}
+
+/* ===== HOME: SERVICE & AWARD LIST (GRID) - STYLING END ===== */
