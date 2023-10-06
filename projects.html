@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/19b5078a53.js" crossorigin="anonymous"></script>
+    <title>MKP_Genesis_Projects</title>
+</head>
+<body>
+<!-- ====  HEADER  === -->
+    <header>
+        <a class="header__logo__link" href="index.html">
+            <svg class="header__logo">
+                <use xlink:href="images/logo.svg#logo" alt="Genesis logo"></use>
+            </svg>
+        </a>
+        
+        <nav class="header__nav">
+            <ul class="header__nav__list">
+                <li><a class="header__nav__item" href="projects.html">Projects</a></li>
+                <li><a class="header__nav__item" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+<!-- ====  PROJECTS: MAIN CONTENT  ==== -->
+
+    <div class="projects__main__container">
+        <div class="projects__main__container1__child1">
+            <h1 class="projects__main__container1__child1__h1">A fresh new title can make all the difference!</h1>
+            <p class="projects__main__container1__child1__txt">
+                There are many variations of passages of Lorem Ipsum available, 
+                but the majority have suffered alteration in some form, by injected humour, 
+                or randomised words which don't look even slightly believable.
+            </p>
+            <p class="projects__main__container1__child1__txt">
+                You need to be sure there isn't anything embarrassing hidden in the middle of text. 
+                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
+                making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, 
+                combined with a handful of model sentence structures.
+            </p>
+        </div>
+
+<!-- QUESTION: What is a better way to do this table below? 
+   (((( Noooo, now that I wrote TABLE, I realize I never tried that.. -_- ))))
+    Well, what I have tried is placing Flexbox on different "containers" and in different kombinations and I've tried GRID in the same way.
+    For both these sections and separate:
+    class="projects__main__container"
+    class="projects__main__container2__grid"
+
+    This was the closes I could get for now, but the lines...... 
+    I uses Grid for the lines to span columns on the index/home page, but it didn't worke here for some reason -->
+
+        <div class="projects__main__container2__grid">
+            <div class="projects__main__container2__child1">
+                <h4 class="projects_h4">Project</h4>
+                <hr class="projects_hr">
+                <h4 class="projects_h4">Design</h4>
+                <hr class="projects_hr">
+                <h4 class="projects_h4">Client</h4>
+                <hr class="projects_hr">
+                <h4 class="projects_h4">Deliverable</h4>
+                <hr class="projects_hr">
+                <h4 class="projects_h4">Year</h4>
+                <hr class="projects_hr">
+                <h4 class="projects_h4">Field</h4>
+            </div>
+            <div class="projects__main__container2__child2">
+                <p class="projects_txt">Genesis Portfolio</p>
+                <hr class="projects_hr">
+                <p class="projects_txt">Bakhtiyar Sattarov</p>
+                <hr class="projects_hr">
+                <p class="projects_txt">Craftwork</p>
+                <hr class="projects_hr">
+                <p class="projects_txt">Website Design</p>
+                <hr class="projects_hr">
+                <p class="projects_txt">2018</p>
+                <hr class="projects_hr">
+                <p class="projects_txt">Branding, Personal</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <img class="projects__main__img1" src="images/portfolio-1.png" alt="Woman walking">
+    </div>
+
+    <div>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, You need to be sure there isn't anything embarrassing hidden in the middle of text. You need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+    </div>
+
+    <div class="projects__main__container3">
+        <img class="projects__main__container3__child1" src="images/portfolio-2.png" alt="Animated mountain view">
+        <img class="projects__main__container3__child2" src="images/portfolio-3.png" alt="Flower still life">
+        <img class="projects__main__container3__child3" src="images/portfolio-4.png" alt="Door picture collage">
+    </div>
+
+    
+<!-- ====  FOOTER  === -->
+
+    <footer>
+        <a class="footer__logo__link" href="index.html">
+            <svg class="footer__logo">
+                <use class="footer__logo" xlink:href="images/logo.svg#logo" alt="Genesis logo"></use>
+            </svg>
+        </a>        
+    
+        <nav class="footer__nav">
+            <a class="footer__nav__item" href="projects.html">Projects</a>
+            <a class="footer__nav__item" href="contact.html">Contact</a>
+        </nav>
+
+        <div class="so_me__icons"> 
+            <a href="https://dribbble.com"><i class="fa-solid fa-basketball dribble" style="color: #000000;"></i></a>
+            <a href="https://instagram.com"><i class="fa-brands fa-instagram insta" style="color: #000000;"></i></a>
+            <a href="https://twitter.com"><i class="fa-brands fa-twitter twitter" style="color: #000000;"></i></a>
+        </div>
+    </footer>  
+</body>
+</html>

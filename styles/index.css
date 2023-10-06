@@ -1,12 +1,3 @@
-/* <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> */
-p, h2, h3, h4, h5, li {
-  font-family: "Mulish", sans-serif;
-}
-
-.txt_blue {
-  color: rgb(74, 79, 242);
-}
-
 header {
   min-height: 100px;
   margin: auto;
@@ -16,9 +7,10 @@ header {
 }
 
 .header__logo {
-  width: 6%;
+  width: 100px;
   margin: 0;
   padding: 0;
+  cursor: pointer;
 }
 
 .header__nav {
@@ -284,7 +276,7 @@ footer {
 }
 
 .footer__logo {
-  width: 15%;
+  width: 100px;
   padding-top: 45px;
 }
 
@@ -315,13 +307,12 @@ footer {
   padding-left: 20px;
 }
 
-/* ===== PROJECT: Section top - CONTAINER1 left - PLACEMENT & STYLING ===== */
-.project__main__container {
+/* ===== PROJECTS: Section top - CONTAINER1 left - PLACEMENT & STYLING ===== */
+.projects__main__container {
   display: flex;
-  padding: 20px;
 }
 
-.project__main__container1__child1__h1 {
+.projects__main__container1__child1__h1 {
   width: 475px;
   font-family: "Mulish", sans-serif;
   font-size: 40px;
@@ -331,7 +322,7 @@ footer {
   text-align: left;
 }
 
-.project__main__container1__child1__txt {
+.projects__main__container1__child1__txt {
   font-family: "Mulish", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -345,24 +336,24 @@ footer {
   padding-top: 20px;
 }
 
-/* ===== PROJECT: Section top - CONTAINER2 right - GRID PLACEMENT & STYLING ===== */
-.project__main__container2__grid {
+/* ===== PROJECTS: Section top - CONTAINER2 right - GRID PLACEMENT & STYLING ===== */
+.projects__main__container2__grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
 }
 
-.project__main__container2__child1 {
+.projects__main__container2__child1 {
   display: grid;
   grid-column: 3;
 }
 
-.project__main__container2__child2 {
+.projects__main__container2__child2 {
   display: grid;
   grid-column: 4;
 }
 
-.project_h4 {
+.projects_h4 {
   font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -371,7 +362,7 @@ footer {
   text-align: left;
 }
 
-.project_txt {
+.projects_txt {
   font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -380,24 +371,24 @@ footer {
   text-align: left;
 }
 
-.project_hr {
+.projects_hr {
   opacity: 0.5px;
   border: 2px solid rgb(216, 216, 216);
   padding: 0;
   margin: 0;
 }
 
-/* ===== PROJECT: from img1 to bottom - GRID PLACEMENT & STYLING ===== */
-.project__main__img1 {
+/* ===== PROJECTS: from img1 to bottom - GRID PLACEMENT & STYLING ===== */
+.projects__main__img1 {
   width: 100%;
 }
 
-.project__main__container3 {
+.projects__main__container3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
-.project__main__container3__child1, .project__main__container3__child2, .project__main__container3__child3 {
+.projects__main__container3__child1, .projects__main__container3__child2, .projects__main__container3__child3 {
   width: 100%;
 }
 
@@ -486,8 +477,8 @@ label {
   padding-top: 40px;
 }
 
-button:hover {
-  background-color: black;
+#submit_btn:hover {
+  background-color: rgb(7, 13, 162);
 }
 
 /* ===== IMG - STYLING ===== */

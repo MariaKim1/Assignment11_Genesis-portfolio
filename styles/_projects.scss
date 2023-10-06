@@ -1,12 +1,11 @@
 
-/* ===== PROJECT: Section top - CONTAINER1 left - PLACEMENT & STYLING ===== */
+/* ===== PROJECTS: Section top - CONTAINER1 left - PLACEMENT & STYLING ===== */
 
-.project__main__container {
+.projects__main__container {
     display: flex;
-    padding: 20px;
 }
 
-.project__main__container1__child1__h1 {
+.projects__main__container1__child1__h1 {
     width: 475px;
     font-family: 'Mulish', sans-serif;  
     font-size: 40px;
@@ -16,7 +15,7 @@
     text-align: left;
 }
 
-.project__main__container1__child1__txt {
+.projects__main__container1__child1__txt {
     font-family: 'Mulish', sans-serif;  
     font-size: 16px;
     font-weight: 400;
@@ -31,25 +30,25 @@
 }
 
 
-/* ===== PROJECT: Section top - CONTAINER2 right - GRID PLACEMENT & STYLING ===== */
+/* ===== PROJECTS: Section top - CONTAINER2 right - GRID PLACEMENT & STYLING ===== */
 
-.project__main__container2__grid {
+.projects__main__container2__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
 }
 
-.project__main__container2__child1 {
+.projects__main__container2__child1 {
     display: grid;
     grid-column: 3;
 }
 
-.project__main__container2__child2 {
+.projects__main__container2__child2 {
     display: grid;
     grid-column: 4;
 }
 
-.project_h4 {
+.projects_h4 {
     font-family: 'Mulish', sans-serif; 
     font-size: 18px;
     font-weight: 700;
@@ -58,7 +57,7 @@
     text-align: left;
 }
 
-.project_txt {
+.projects_txt {
     font-family: 'Mulish', sans-serif; 
     font-size: 18px;
     font-weight: 700;
@@ -67,20 +66,20 @@
     text-align: left;
 }
 
-.project_hr {
+.projects_hr {
     opacity: 0.5px;
     border: 2px solid rgba(216, 216, 216, 1); 
     padding: 0;
     margin: 0;
 }
 
-/* ===== PROJECT: from img1 to bottom - GRID PLACEMENT & STYLING ===== */
+/* ===== PROJECTS: from img1 to bottom - GRID PLACEMENT & STYLING ===== */
 
-.project__main__img1 {
+.projects__main__img1 {
     width: 100%;
 }
 
-.project__main__container3 {
+.projects__main__container3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
